@@ -16,6 +16,14 @@
 #include <stdio.h>
 #include <wchar.h>
 
+#include <cups/cups.h>
+#include <cups/raster.h>
+//#include <cups/language-private.h>
+
+#include <math.h>
+#include <fcntl.h>
+#include <signal.h>
+
 /****** Common helper macros ***********************************************/
 
 #if !defined(LOBYTE)

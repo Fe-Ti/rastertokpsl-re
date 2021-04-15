@@ -1,4 +1,12 @@
-# rastertokpl
+
+# TODO:
+ - [ ] rewrite the most part in C++ (just as a summer project)
+ - [ ] add support for linux (at least Devuan||Debian)
+ - [ ] improve CmakeLists (maybe not)
+ - [ ] update main readme with requirements and manual for buiding the driver
+ - [ ] add some other ppd files (the main goal is to write an opensource driver for my lovely FS-1060DN)
+
+# rastertokpsl
 
 Kyocera KPSL filter for CUPS licensed under the Apache License Version 2.0. See the file "LICENSE" for more information.
 

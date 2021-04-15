@@ -10,14 +10,6 @@
  * Include necessary headers...
  */
 
-#include <cups/cups.h>
-#include <cups/raster.h>
-//#include <cups/language-private.h>
-
-#include <math.h>
-#include <fcntl.h>
-#include <signal.h>
-
 #include "rastertokpsl.h"
 #include "halfton.h"
 #include "libjbig/jbig.h"
