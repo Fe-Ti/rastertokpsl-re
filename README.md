@@ -1,10 +1,11 @@
 
 # TODO:
  - [x] make it possible to build on Linux (at least on Devuan)
+ - [x] add some other ppd files (the main goal is to get an opensource driver for my lovely FS-1060DN)
+ - [ ] create a list of required packages
  - [ ] update main readme (add requirements and manual for buiding the driver)
  - [ ] rewrite the most part in C++ or just  improve the code (as a summer project)
  - [ ] improve CmakeLists (maybe not)
- - [ ] add some other ppd files (the main goal is to write an opensource driver for my lovely FS-1060DN)
 
 # Requirements
 To build the project you need Cmake and GCC (I haven't tested that code with Clang and other compilers). Also you need CUPS and its (development) libraries. Below there is a list of package names required for buiulding in different systems.
@@ -31,7 +32,20 @@ Here is a table with cmake variables for use at the first step of instructions.
 | DEBUG    | Allow debugging via GDB           | OFF |
 | VERBOSE  | Print all warnings when compiling | OFF |
 
+# Supported Devices
 
+### Tested
+* Kyocera FS-1060DN
+
+### Untested
+* Kyocera_FS-1020MFP
+* Kyocera_FS-1025MFP
+* Kyocera_FS-1040
+* Kyocera_FS-1120MFP
+* Kyocera_FS-1125MFP
+
+
+----
 
 ----
 # Older README contents
