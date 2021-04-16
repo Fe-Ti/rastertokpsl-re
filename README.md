@@ -1,9 +1,9 @@
 
 # TODO:
- - [ ] rewrite the most part in C++ (just as a summer project)
- - [ ] add support for linux (at least Devuan||Debian)
+ - [ ] make it possible to build on Linux (at least on Devuan)
+ - [ ] update main readme (add requirements and manual for buiding the driver)
+ - [ ] rewrite the most part in C++ or just  improve the code (as a summer project)
  - [ ] improve CmakeLists (maybe not)
- - [ ] update main readme with requirements and manual for buiding the driver
  - [ ] add some other ppd files (the main goal is to write an opensource driver for my lovely FS-1060DN)
 
 # rastertokpsl
