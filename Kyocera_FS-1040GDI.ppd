@@ -1,7 +1,7 @@
 *PPD-Adobe: "4.3"
 *%=============================================================================
 *%
-*%  PPD file for Kyocera FS-1020MFP (Russian)
+*%  PPD file for Kyocera FS-1040 (Russian)
 *%  Linux Version
 *%
 *% (C) 2012 KYOCERA Document Solutions Inc.
@@ -37,15 +37,15 @@
 *FormatVersion: "4.3"
 *LanguageEncoding: UTF-8
 *LanguageVersion: Russian
-*Product: "(FS-1020MFP)"
+*Product: "(FS-1040)"
 *PSVersion: "(3011.103) 1"
 *Manufacturer: "Kyocera"
-*ModelName: "Kyocera FS-1020MFP KPSL"
-*ShortNickName: "Kyocera FS-1020MFP (KPSL)"
-*NickName: "Kyocera FS-1020MFP (KPSL)"
-*PCFileName: "KC1020RU.PPD"
+*ModelName: "Kyocera FS-1040 KPSL"
+*ShortNickName: "Kyocera FS-1040 (KPSL)"
+*NickName: "Kyocera FS-1040 (KPSL)"
+*PCFileName: "KC1040RU.PPD"
 
-*1284DeviceID: "MDL:FS-1020MFP;MFG:Kyocera"
+*1284DeviceID: "MDL:FS-1040;MFG:Kyocera"
 
 *cupsVersion: 1.2
 *cupsManualCopies: False
@@ -512,5 +512,5 @@
 *Source: "LocalTalk"
 *Source: "Option"
 
-*%  End of PPD file for Kyocera FS-1020MFP (Russian)
+*%  End of PPD file for Kyocera FS-1040 (Russian)
 

@@ -1,7 +1,7 @@
 *PPD-Adobe: "4.3"
 *%=============================================================================
 *%
-*%  PPD file for Kyocera FS-1020MFP (Russian)
+*%  PPD file for Kyocera FS-1125MFP (Russian)
 *%  Linux Version
 *%
 *% (C) 2012 KYOCERA Document Solutions Inc.
@@ -37,15 +37,15 @@
 *FormatVersion: "4.3"
 *LanguageEncoding: UTF-8
 *LanguageVersion: Russian
-*Product: "(FS-1020MFP)"
+*Product: "(FS-1125MFP)"
 *PSVersion: "(3011.103) 1"
 *Manufacturer: "Kyocera"
-*ModelName: "Kyocera FS-1020MFP KPSL"
-*ShortNickName: "Kyocera FS-1020MFP (KPSL)"
-*NickName: "Kyocera FS-1020MFP (KPSL)"
-*PCFileName: "KC1020RU.PPD"
+*ModelName: "Kyocera FS-1125MFP KPSL"
+*ShortNickName: "Kyocera FS-1125MFP (KPSL)"
+*NickName: "Kyocera FS-1125MFP (KPSL)"
+*PCFileName: "KC1125RU.PPD"
 
-*1284DeviceID: "MDL:FS-1020MFP;MFG:Kyocera"
+*1284DeviceID: "MDL:FS-1125MFP;MFG:Kyocera"
 
 *cupsVersion: 1.2
 *cupsManualCopies: False
@@ -69,7 +69,7 @@
   = flush restore"
 *End
 
-*Throughput: "20"
+*Throughput: "25"
 
 *% System Management
 *SuggestedJobTimeout: "0"
@@ -108,6 +108,48 @@
 *FreeVM: "32000000"
 
 *% Constraints
+*UIConstraints: *Duplex *PageSize Statement
+*UIConstraints: *PageSize Statement *Duplex DuplexTumble
+*UIConstraints: *PageSize Statement *Duplex  DuplexNoTumble
+*UIConstraints: *Duplex *PageRegion Statement
+*UIConstraints: *PageRegion Statement *Duplex DuplexTumble
+*UIConstraints: *PageRegion Statement *Duplex  DuplexNoTumble
+*UIConstraints: *Duplex *PageSize A5
+*UIConstraints: *PageSize A5 *Duplex DuplexTumble
+*UIConstraints: *PageSize A5 *Duplex  DuplexNoTumble
+*UIConstraints: *Duplex *PageRegion A5
+*UIConstraints: *PageRegion A5 *Duplex DuplexTumble
+*UIConstraints: *PageRegion A5 *Duplex  DuplexNoTumble
+*UIConstraints: *Duplex *PageSize ISOB5
+*UIConstraints: *PageSize ISOB5 *Duplex DuplexTumble
+*UIConstraints: *PageSize ISOB5 *Duplex  DuplexNoTumble
+*UIConstraints: *Duplex *PageRegion ISOB5
+*UIConstraints: *PageRegion ISOB5 *Duplex DuplexTumble
+*UIConstraints: *PageRegion ISOB5 *Duplex  DuplexNoTumble
+*UIConstraints: *Duplex *PageSize EnvC5
+*UIConstraints: *PageSize EnvC5 *Duplex DuplexTumble
+*UIConstraints: *PageSize EnvC5 *Duplex  DuplexNoTumble
+*UIConstraints: *Duplex *PageRegion EnvC5
+*UIConstraints: *PageRegion EnvC5 *Duplex DuplexTumble
+*UIConstraints: *PageRegion EnvC5 *Duplex  DuplexNoTumble
+*UIConstraints: *Duplex *PageSize B5
+*UIConstraints: *PageSize B5 *Duplex DuplexTumble
+*UIConstraints: *PageSize B5 *Duplex  DuplexNoTumble
+*UIConstraints: *Duplex *PageRegion B5
+*UIConstraints: *PageRegion B5 *Duplex DuplexTumble
+*UIConstraints: *PageRegion B5 *Duplex  DuplexNoTumble
+*UIConstraints: *Duplex *MediaType Labels
+*UIConstraints: *MediaType Labels *Duplex DuplexTumble
+*UIConstraints: *MediaType Labels *Duplex DuplexNoTumble
+*UIConstraints: *Duplex *MediaType Vellum
+*UIConstraints: *MediaType Vellum *Duplex DuplexTumble
+*UIConstraints: *MediaType Vellum *Duplex DuplexNoTumble
+*UIConstraints: *Duplex *MediaType Envelope
+*UIConstraints: *MediaType Envelope *Duplex DuplexTumble
+*UIConstraints: *MediaType Envelope *Duplex DuplexNoTumble
+*UIConstraints: *Duplex *MediaType Cardstock
+*UIConstraints: *MediaType Cardstock *Duplex DuplexTumble
+*UIConstraints: *MediaType Cardstock *Duplex DuplexNoTumble
 *UIConstraints: *MediaType Labels *InputSlot Internal
 *UIConstraints: *InputSlot Internal *MediaType Labels
 *UIConstraints: *MediaType Vellum *InputSlot Internal
@@ -116,6 +158,44 @@
 *UIConstraints: *InputSlot Internal *MediaType Envelope
 *UIConstraints: *MediaType Cardstock *InputSlot Internal
 *UIConstraints: *InputSlot Internal *MediaType Cardstock
+*NonUIConstraints: *Duplex *CustomPageSize True
+*NonUIConstraints: *CustomPageSize True *Duplex
+*UIConstraints: *Duplex *PageSize A6
+*UIConstraints: *PageSize A6 *Duplex DuplexTumble
+*UIConstraints: *PageSize A6 *Duplex DuplexNoTumble
+*UIConstraints: *Duplex *PageRegion A6
+*UIConstraints: *PageRegion A6 *Duplex DuplexTumble
+*UIConstraints: *PageRegion A6 *Duplex DuplexNoTumble
+*UIConstraints: *Duplex *PageSize EnvPersonal
+*UIConstraints: *PageSize EnvPersonal *Duplex DuplexTumble
+*UIConstraints: *PageSize EnvPersonal *Duplex DuplexNoTumble
+*UIConstraints: *Duplex *PageRegion EnvPersonal
+*UIConstraints: *PageRegion EnvPersonal *Duplex DuplexTumble
+*UIConstraints: *PageRegion EnvPersonal *Duplex DuplexNoTumble
+*UIConstraints: *Duplex *PageSize Env9
+*UIConstraints: *PageSize Env9 *Duplex DuplexTumble
+*UIConstraints: *PageSize Env9 *Duplex DuplexNoTumble
+*UIConstraints: *Duplex *PageRegion Env9
+*UIConstraints: *PageRegion Env9 *Duplex DuplexTumble
+*UIConstraints: *PageRegion Env9 *Duplex DuplexNoTumble
+*UIConstraints: *Duplex *PageSize Env10
+*UIConstraints: *PageSize Env10 *Duplex DuplexTumble
+*UIConstraints: *PageSize Env10 *Duplex DuplexNoTumble
+*UIConstraints: *Duplex *PageRegion Env10
+*UIConstraints: *PageRegion Env10 *Duplex DuplexTumble
+*UIConstraints: *PageRegion Env10 *Duplex DuplexNoTumble
+*UIConstraints: *Duplex *PageSize EnvMonarch
+*UIConstraints: *PageSize EnvMonarch *Duplex DuplexTumble
+*UIConstraints: *PageSize EnvMonarch *Duplex DuplexNoTumble
+*UIConstraints: *Duplex *PageRegion EnvMonarch
+*UIConstraints: *PageRegion EnvMonarch *Duplex DuplexTumble
+*UIConstraints: *PageRegion EnvMonarch *Duplex DuplexNoTumble
+*UIConstraints: *Duplex *PageSize EnvDL
+*UIConstraints: *PageSize EnvDL *Duplex DuplexTumble
+*UIConstraints: *PageSize EnvDL *Duplex DuplexNoTumble
+*UIConstraints: *Duplex *PageRegion EnvDL
+*UIConstraints: *PageRegion EnvDL *Duplex DuplexTumble
+*UIConstraints: *PageRegion EnvDL *Duplex DuplexNoTumble
 
 *OpenGroup: GraphicsOptions/Графика
 
@@ -270,6 +350,18 @@
 *ParamCustomPageSize HeightOffset: 4 points 0 0
 *ParamCustomPageSize Orientation: 5 int 1 1
 
+*OpenGroup: MFFeedOptions/Ручная подача
+
+*% Manual Feed Switch Definitions
+*OpenUI *Feeding/Ручная подача: PickOne
+*OrderDependency: 40 AnySetup *Feeding
+*DefaultFeeding: Off
+*Feeding On/Вкл: ""
+*Feeding Off/Откл: ""
+*CloseUI: *Feeding
+
+*CloseGroup: MFFeedOptions/Ручная подача
+
 *OpenGroup: SpeedOptions/Пониженной скорости
 
 *% Engine Speed Definitions
@@ -378,6 +470,23 @@
 *CloseGroup: MediaOptions/материала для печати
 
 *RequiresPageRegion All: True
+
+*% Duplex Definitions
+*OpenUI *Duplex/Duplexing: PickOne
+*OrderDependency: 50 AnySetup *Duplex
+*DefaultDuplex: None
+*Duplex None/None: "<</Duplex false /Tumble false>> setpagedevice"
+*Duplex DuplexTumble/Short Edge: "<</Duplex true /Tumble true>> setpagedevice"
+*Duplex DuplexNoTumble/Long Edge: "<</Duplex true /Tumble false>> setpagedevice"
+*?Duplex: "
+  save
+  statusdict begin
+  duplexmode
+  {tumble {(DuplexTumble)}{(DuplexNoTumble)} ifelse}
+  {(None)} ifelse
+  = flush end restore"
+*End
+*CloseUI: *Duplex
 
 *% PPD Version Info 
 *OpenUI *KCVersion/PPD Version: PickOne
@@ -512,5 +621,5 @@
 *Source: "LocalTalk"
 *Source: "Option"
 
-*%  End of PPD file for Kyocera FS-1020MFP (Russian)
+*%  End of PPD file for Kyocera FS-1125MFP (Russian)
 
