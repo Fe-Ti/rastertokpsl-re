@@ -1,5 +1,5 @@
 
-# TODO:
+# Tasklist:
  - [x] make it possible to build on Linux (at least on Devuan)
  - [x] add some other ppd files (the main goal is to get an opensource driver for my lovely FS-1060DN)
  - [ ] create a list of required packages
