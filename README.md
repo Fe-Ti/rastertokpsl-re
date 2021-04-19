@@ -1,16 +1,24 @@
+# About the project rastertokpsl-re
+
+Kyocera KPSL filter for CUPS licensed under the Apache License Version 2.0. See the file "LICENSE" for more information.
+
+The reason for development is unexpected printing errors with the original driver.
+The problem in the non ASCII encoding of the file names for printed files.
 
 # Tasklist:
+
  - [x] make it possible to build on Linux (at least on Devuan)
- - [x] add some other ppd files (the main goal is to get an opensource driver for my lovely FS-1060DN)
+ - [x] add some other ppd files
  - [ ] create a list of required packages
  - [ ] update main readme (add requirements and manual for buiding the driver)
- - [ ] rewrite the most part in C++ or just  improve the code (as a summer project)
  - [ ] improve CmakeLists (maybe not)
+ - [ ] rewrite the most part in C++ as a summer project {just because :-)}
 
 # Requirements
+
 To build the project you need Cmake and GCC (I haven't tested that code with Clang and other compilers). Also you need CUPS and its (development) libraries. Below there is a list of package names required for buiulding in different systems.
 
-_(**Note**: currently there is only one entry for Debian and Devuan, and it's not full due to the fact that I do not have "clean" environment, e.g. I already have compilers, cmake and other stuff)_
+_(**Note**: currently there is only one entry (for Debian and Devuan), and it's not full due to the fact that I do not have a "clean" environment, e.g. I already have compilers, cmake and other stuff)_
 
 #### Devuan|Debian
 
@@ -19,7 +27,7 @@ _(**Note**: currently there is only one entry for Debian and Devuan, and it's no
 
 # Instructions
 
-1. Run `cmake -B_build -H.` for generating nessesary files  _(**Note**: there are cmake variables listed at the end of the section)_;
+1. Run `cmake -B_build -H.` to generate nessesary files  _(**Note**: there are cmake variables listed at the end of the section)_;
 2. Run `cmake --build _build/` to build all cmake targets, the resulting binaries are located in `bin/` subdirectory.
 3. Run `./install.sh` to install PPD files and the newly built filter.
 
@@ -44,17 +52,14 @@ Here is a table with cmake variables for use at the first step of instructions.
 * Kyocera_FS-1120MFP
 * Kyocera_FS-1125MFP
 
+# Credits
+* The filter sources developed by: [sv99](https://github.com/sv99)
+* All PPD files made by: [Kyocera Document Solutions Inc](https://www.kyoceradocumentsolutions.com/).
 
 ----
 
 ----
 # Older README contents
-## rastertokpsl
-
-Kyocera KPSL filter for CUPS licensed under the Apache License Version 2.0. See the file "LICENSE" for more information.
-
-The reason for development is unexpected printing errors with original driver.
-The problem in th non ASCII encoding of the file names for printed files.
 
 **FS-1020MFP**
 
