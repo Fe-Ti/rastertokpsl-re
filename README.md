@@ -12,7 +12,6 @@ The problem in the non ASCII encoding of the file names for printed files.
  - [ ] create a list of required packages
  - [ ] update main readme (add requirements and manual for buiding the driver)
  - [ ] improve CmakeLists (maybe not)
- - [ ] rewrite the most part in C++ as a summer project {just because :-)}
 
 # Requirements
 
